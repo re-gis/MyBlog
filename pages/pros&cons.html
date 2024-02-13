@@ -12,26 +12,57 @@
   </head>
   <body>
     <div class="container">
-      <div class="navbar">
-        <div>
-          <h1><a href="#">MyBlog</a></h1>
-        </div>
-        <div>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
+      <nav>
+        <div class="navWrapper">
+          <h1 class="logo">My BLog</h1>
+          <ul class="menuList">
+            <li><a class="menuItem" href="./Landing.html#home">HOME</a></li>
+            <li><a class="menuItem" href="./Landing.html#about">ABOUT</a></li>
+            <li><a class="menuItem" href="./Landing.html#blog">BLOG</a></li>
+            <li>
+              <a class="menuItem" href="./Landing.html#portfolio">PORTFOLIO</a>
+            </li>
+            <li>
+              <a class="menuItem" href="./Landing.html#contact">CONTACT</a>
+            </li>
           </ul>
+          <div class="buttonContainer">
+            <button style="cursor: pointer" class="button">
+              <a href="./login.html">Log in</a>
+            </button>
+            <button class="menubar">
+              <img src="../public/menu.png" alt="menulines" />
+            </button>
+          </div>
+          <div class="sidebar bar">
+            <div class="sidebarButton">
+              <h1 class="logo">My BLog</h1>
+              <button class="menubar close">
+                <img src="../public/close.png" alt="close" />
+              </button>
+            </div>
+            <ul class="sidebarMenu">
+              <li>
+                <a class="menuItem sideItem close" href="#home">HOME</a>
+              </li>
+              <li>
+                <a class="menuItem sideItem close" href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a class="menuItem sideItem close" href="#blog">BLOG</a>
+              </li>
+              <li>
+                <a class="menuItem sideItem close" href="#portfolio"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li>
+                <a class="menuItem sideItem close" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="bars-container">
-          <button>
-            <a href="#">LOGIN</a>
-          </button>
-          <div class="bars">BARS</div>
-        </div>
-      </div>
+      </nav>
       <div class="main">
         <div class="main-top">
           <div>
@@ -149,5 +180,7 @@
         </div>
       </div>
     </div>
+
+    <script src="../js/Landing.js"></script>
   </body>
 </html>
