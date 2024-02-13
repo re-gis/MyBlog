@@ -777,6 +777,7 @@ form>button:hover {
     }
 }
 
+
 /* large devices */
 @media (min-width: 992px) and (max-width: 1199px) {
     .subWrapper {
