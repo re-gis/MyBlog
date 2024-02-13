@@ -131,6 +131,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.pagination>div>div:hover {
+    background-color: #080e2e;
+    border: 1px solid #fff;
+    color: #FFFF00;
+
 }
 
 .main-top {
